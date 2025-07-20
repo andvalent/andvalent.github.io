@@ -1,4 +1,4 @@
-# Andrea Valentini | AWS Cloud & Solutions Architect
+# Andrea Valente | AWS Cloud & Solutions Architect | Sr Data Scientist
 
 [LinkedIn](https://www.linkedin.com/in/your-linkedin-profile) • [GitHub](https://github.com/andvalent) • [Download my CV](path/to/your/cv.pdf)
 
