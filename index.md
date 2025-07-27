@@ -1,16 +1,26 @@
-# Andrea Valente | AWS Cloud & Solutions Architect | Sr Data Scientist
+# Andrea Valente | AWS Cloud & Solutions Architect | Senior Data Scientist
 
-[LinkedIn](https://www.linkedin.com/in/your-linkedin-profile) • [GitHub](https://github.com/andvalent) • [Download my CV](path/to/your/cv.pdf)
+<!-- 
+Instructions:
+1. Create an 'assets' folder in your repository.
+2. Upload your CV pdf file (e.g., 'Andrea_Valente_CV.pdf') into that folder.
+3. The link below should work automatically.
+-->
+[LinkedIn](https://www.linkedin.com/in/andrea-valente-phd-74493b21/) • [GitHub](https://github.com/andvalent) • [Download my CV](assets/Andrea_Valente_CV.pdf)
 
 ---
 
-I am a cloud engineer specializing in designing and building scalable, secure, and cost-effective infrastructure on AWS for startups and small businesses. My goal is to help businesses leverage the power of the cloud without the complexity.
+I am an **AWS Certified Solutions Architect** with a deep background in data science. My passion is helping startups and businesses build intelligent, scalable, and cost-effective cloud solutions. I bridge the gap between robust infrastructure and data-driven insights, ensuring your platform is not only secure and resilient but also optimized for performance and cost from day one.
 
-## Services I Offer
+My unique value comes from combining infrastructure-as-code best practices with a strategic understanding of data pipelines, machine learning workloads, and analytics.
 
-*   **Serverless Solutions:** Building event-driven applications with AWS Lambda, API Gateway, and DynamoDB.
-*   **Infrastructure as Code (IaC):** Automating infrastructure deployment and management using AWS CloudFormation and Terraform.
-*   **CI/CD Pipelines:** Setting up automated build, test, and deployment pipelines using GitHub Actions or AWS CodePipeline.
+## What I Can Do For You
+
+*   **Cloud Cost Optimization & Strategy:** I design and review AWS architectures with a primary focus on cost-effectiveness. I help you forecast expenses, implement budget alerts, and right-size resources to ensure you only pay for what you need.
+*   **Serverless & Event-Driven Solutions:** I build highly scalable, low-maintenance applications using AWS Lambda, API Gateway, DynamoDB, and other serverless technologies, perfect for APIs, data processing, and backend services.
+*   **Infrastructure as Code (IaC):** I automate the deployment and management of your entire cloud environment using **Terraform**, ensuring consistency, repeatability, and eliminating manual errors.
+*   **Data & Analytics Solutions on AWS:** Leveraging my data science background, I architect data pipelines using services like **AWS Glue**, **S3**, and **Athena** and design infrastructure to support **Machine Learning** workloads.
+*   **CI/CD Automation:** I implement automated build, test, and deployment pipelines using **GitHub Actions** to accelerate your development cycle and improve release quality.
 
 ---
 
@@ -18,20 +28,40 @@ I am a cloud engineer specializing in designing and building scalable, secure, a
 
 Here are a few examples of solutions I can build.
 
+<!-- 
+Instruction: 
+For each project, update the link to point to your actual GitHub repository.
+For example: [View Code on GitHub](https://github.com/andvalent/serverless-api-project)
+-->
+
 ### Project 1: Serverless API Backend
 
 A complete backend for a web application built entirely on serverless technology, designed for high scalability and low operational cost.
 
-*   **The Challenge:** A fictional startup needed an API that could handle unpredictable traffic spikes without over-provisioning expensive servers.
-*   **My Solution:** I designed an API-driven, serverless architecture using API Gateway and Lambda.
-*   **Technologies Used:** AWS Lambda, API Gateway, DynamoDB, Cognito, IAM.
-*   **[View Code on GitHub](https://github.com/andvalent/your-project-repo-link-here)**
+*   **The Challenge:** A startup needed a powerful API that could handle unpredictable traffic spikes without the cost and complexity of traditional servers.
+*   **My Solution:** I designed and implemented a RESTful API using AWS API Gateway, with business logic handled by Python-based AWS Lambda functions and data stored in DynamoDB. User authentication was managed securely with Amazon Cognito.
+*   **Technologies Used:** AWS Lambda, API Gateway, DynamoDB, Cognito, IAM, Terraform.
+*   **[View on GitHub](https://github.com/andvalent/YOUR-REPO-NAME-HERE)**
 
 ### Project 2: Automated CI/CD Pipeline for a Web Application
 
-This project showcases a fully automated pipeline that takes code from a GitHub repository, runs tests, and deploys it to a hosting environment.
+This project showcases a fully automated pipeline that takes code from a GitHub repository, runs tests, builds a Docker container, and deploys it to the cloud.
 
-*   **The Challenge:** A development team was losing time with manual deployments, leading to errors and slow release cycles.
-*   **My Solution:** I implemented a CI/CD pipeline using GitHub Actions.
-*   **Technologies Used:** GitHub Actions, Docker, AWS S3.
-*   **[View Code on GitHub](https://github.com/andvalent/another-project-link)**
+*   **The Challenge:** A development team was slowed down by manual, error-prone deployment processes.
+*   **My Solution:** I created a CI/CD pipeline using GitHub Actions that triggers on every push to the `main` branch. The pipeline automatically runs tests, builds a new Docker image, and pushes it to a container registry, ready for deployment.
+*   **Technologies Used:** GitHub Actions, Docker, AWS S3, Python.
+*   **[View on GitHub](https://github.com/andvalent/YOUR-REPO-NAME-HERE)**
+
+### Project 3: Serverless Data Processing Pipeline (Example)
+
+<!-- 
+Suggestion: A data-focused project would be a perfect addition to showcase your dual expertise. 
+You can use this as a template for a project you are building.
+-->
+
+A pipeline that automatically processes raw data files uploaded to S3, cleans them, and makes them available for analysis via SQL queries.
+
+*   **The Challenge:** A business needed to analyze daily CSV reports, but the manual process of cleaning and loading them into a database was time-consuming.
+*   **My Solution:** I built an event-driven pipeline where an S3 file upload triggers a Lambda function. The function uses Pandas to clean the data, converts it to a cost-effective format (Parquet), and stores it in another S3 bucket. AWS Glue Crawler catalogs the data, making it instantly queryable with Amazon Athena.
+*   **Technologies Used:** AWS S3, Lambda, AWS Glue, Athena, Python (Pandas).
+*   **[View on GitHub](https://github.com/andvalent/YOUR-REPO-NAME-HERE)**
