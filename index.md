@@ -6,7 +6,24 @@ Instructions:
 2. Upload your CV pdf file (e.g., 'Andrea_Valente_CV.pdf') into that folder.
 3. The link below should work automatically.
 -->
-[LinkedIn](https://www.linkedin.com/in/andrea-valente-phd-74493b21/) • [GitHub](https://github.com/andvalent) • [Download my CV](assets/Andrea_Valente_CV.pdf)
+<table>
+  <tr>
+    <td style="border: 0;">
+      <img src="assets/profile.jpg" alt="Profile picture of Andrea Valente" style="width: 150px; border-radius: 50%;">
+    </td>
+    <td style="border: 0; vertical-align: middle;">
+      <h1>Andrea Valente</h1>
+      <p><strong>AWS Cloud & Solutions Architect | Senior Data Scientist</strong></p>
+      <p>
+        <a href="https://www.linkedin.com/in/andrea-valente-phd-74493b21/">LinkedIn</a> • 
+        <a href="https://github.com/andvalent">GitHub</a> • 
+        <a href="assets/Andrea_Valente_CV.pdf">Download my CV</a>
+      </p>
+    </td>
+  </tr>
+</table>
+
+---
 
 ---
 
@@ -52,16 +69,12 @@ A practical demonstration of deploying a containerized Python application on AWS
 *   **Technologies Used:** Docker, AWS ECS, AWS CDK, FastAPI, S3.
 *   **[View Project on GitHub](https://github.com/andvalent/garmin-rundata-ecs-app)**
 
-### Project 3: Serverless Data Processing Pipeline (Example)
+### Project 3: Live Serverless Web App for Civic Reporting
 
-<!-- 
-Suggestion: A data-focused project would be a perfect addition to showcase your dual expertise. 
-You can use this as a template for a project you are building.
--->
+A live, full-stack web application that allows citizens in Cyprus to report illegal waste dumping. The platform features user authentication, GPS-tagged photo uploads, and an interactive map showing all reports.
 
-A pipeline that automatically processes raw data files uploaded to S3, cleans them, and makes them available for analysis via SQL queries.
-
-*   **The Challenge:** A business needed to analyze daily CSV reports, but the manual process of cleaning and loading them into a database was time-consuming.
-*   **My Solution:** I built an event-driven pipeline where an S3 file upload triggers a Lambda function. The function uses Pandas to clean the data, converts it to a cost-effective format (Parquet), and stores it in another S3 bucket. AWS Glue Crawler catalogs the data, making it instantly queryable with Amazon Athena.
-*   **Technologies Used:** AWS S3, Lambda, AWS Glue, Athena, Python (Pandas).
-*   **[View on GitHub](https://github.com/andvalent/YOUR-REPO-NAME-HERE)**
+*   **The Challenge:** Create a highly scalable, secure, and extremely low-cost platform for a public-facing, civic-tech initiative.
+*   **My Solution:** I designed and built a 100% serverless application on AWS. It uses **Amazon Cognito** for user authentication (including Google federated login), an API built with **API Gateway and Lambda**, and **DynamoDB** as the database. Images are securely uploaded using **S3 presigned URLs** and validated with **Amazon Rekognition**. The entire CI/CD process is automated with **AWS Amplify**.
+*   **Technologies Used:** AWS Amplify, CloudFront, Cognito, API Gateway, Lambda, DynamoDB, Rekognition, S3.
+*   **[View Live Application](https://www.cypruswastemap.com/)**
+*   *(Note: This is a production application. The source code is private but can be discussed upon request.)*
