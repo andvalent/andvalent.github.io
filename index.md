@@ -34,14 +34,14 @@ For each project, update the link to point to your actual GitHub repository.
 For example: [View Code on GitHub](https://github.com/andvalent/serverless-api-project)
 -->
 
-### Project 1: Serverless API Backend
+### Project 1: Serverless Data & AI Pipeline
 
-A complete backend for a web application built entirely on serverless technology, designed for high scalability and low operational cost.
+An automated pipeline that ingests data from Reddit, enriches it with AI-generated summaries using Amazon Bedrock, and makes it available for analysis with SQL.
 
-*   **The Challenge:** A startup needed a powerful API that could handle unpredictable traffic spikes without the cost and complexity of traditional servers.
-*   **My Solution:** I designed and implemented a RESTful API using AWS API Gateway, with business logic handled by Python-based AWS Lambda functions and data stored in DynamoDB. User authentication was managed securely with Amazon Cognito.
-*   **Technologies Used:** AWS Lambda, API Gateway, DynamoDB, Cognito, IAM, Terraform.
-*   **[View on GitHub](https://github.com/andvalent/YOUR-REPO-NAME-HERE)**
+*   **The Challenge:** Businesses need to analyze public community discussions for market research, but manual methods are slow and unscalable.
+*   **My Solution:** I designed an end-to-end, event-driven pipeline on AWS. It uses Lambda for ingestion, **Amazon Bedrock (AI)** for summarization, and Glue/Athena for analysis. The entire infrastructure is provisioned with **Terraform**.
+*   **Technologies Used:** Terraform, AWS Lambda, Amazon Bedrock, S3, Glue, Athena.
+*   **[View Project on GitHub](https://github.com/andvalent/AWS-Serverless-Reddit-Data-Analysis-Pipeline)**
 
 ### Project 2: Automated CI/CD Pipeline for a Web Application
 
