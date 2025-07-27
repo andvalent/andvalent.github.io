@@ -1,4 +1,4 @@
-# Andrea Valente | AWS Cloud & Solutions Architect | Senior Data Scientist
+# Andrea Valente, PhD | AWS Cloud & Solutions Architect | Senior Data Scientist
 
 <!-- 
 Instructions:
@@ -18,7 +18,7 @@ My unique value comes from combining infrastructure-as-code best practices with 
 
 *   **Cloud Cost Optimization & Strategy:** I design and review AWS architectures with a primary focus on cost-effectiveness. I help you forecast expenses, implement budget alerts, and right-size resources to ensure you only pay for what you need.
 *   **Serverless & Event-Driven Solutions:** I build highly scalable, low-maintenance applications using AWS Lambda, API Gateway, DynamoDB, and other serverless technologies, perfect for APIs, data processing, and backend services.
-*   **Infrastructure as Code (IaC):** I automate the deployment and management of your entire cloud environment using **Terraform**, ensuring consistency, repeatability, and eliminating manual errors.
+*   **Infrastructure as Code (IaC):** I automate the deployment and management of your entire cloud environment using **Terraform** and **Amazon CDK**, ensuring consistency, repeatability, and eliminating manual errors.
 *   **Data & Analytics Solutions on AWS:** Leveraging my data science background, I architect data pipelines using services like **AWS Glue**, **S3**, and **Athena** and design infrastructure to support **Machine Learning** workloads.
 *   **CI/CD Automation:** I implement automated build, test, and deployment pipelines using **GitHub Actions** to accelerate your development cycle and improve release quality.
 
@@ -43,14 +43,14 @@ An automated pipeline that ingests data from Reddit, enriches it with AI-generat
 *   **Technologies Used:** Terraform, AWS Lambda, Amazon Bedrock, S3, Glue, Athena.
 *   **[View Project on GitHub](https://github.com/andvalent/AWS-Serverless-Reddit-Data-Analysis-Pipeline)**
 
-### Project 2: Automated CI/CD Pipeline for a Web Application
+### Project 2: Automated ECS Deployment for a Containerized API
 
-This project showcases a fully automated pipeline that takes code from a GitHub repository, runs tests, builds a Docker container, and deploys it to the cloud.
+A practical demonstration of deploying a containerized Python application on AWS ECS, with the entire infrastructure provisioned as code using the AWS CDK.
 
-*   **The Challenge:** A development team was slowed down by manual, error-prone deployment processes.
-*   **My Solution:** I created a CI/CD pipeline using GitHub Actions that triggers on every push to the `main` branch. The pipeline automatically runs tests, builds a new Docker image, and pushes it to a container registry, ready for deployment.
-*   **Technologies Used:** GitHub Actions, Docker, AWS S3, Python.
-*   **[View on GitHub](https://github.com/andvalent/YOUR-REPO-NAME-HERE)**
+*   **The Challenge:** A common requirement is to deploy a containerized backend service to the cloud in a repeatable and automated fashion.
+*   **My Solution:** I containerized a FastAPI application using **Docker** and wrote an **AWS CDK** script to automate the entire infrastructure deployment. The script provisions a VPC, an **ECS Cluster** (EC2 launch type), and a service to run the application container. The web UI is hosted on S3, demonstrating a decoupled architecture.
+*   **Technologies Used:** Docker, AWS ECS, AWS CDK, FastAPI, S3.
+*   **[View Project on GitHub](https://github.com/andvalent/garmin-rundata-ecs-app)**
 
 ### Project 3: Serverless Data Processing Pipeline (Example)
 
