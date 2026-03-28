@@ -33,6 +33,8 @@ My current focus is on the modern open-source data stack — **dbt**, **Prefect*
 
 **Data infrastructure for small teams** — helping companies with little or no data function go from zero to a functioning, maintainable analytics stack.
 
+**Advanced analytics & machine learning** — classification and regression models (tree-based: XGBoost, Random Forest), model evaluation and explainability (precision, recall, F1, feature importance). Applied to real-world problems including aircraft stand allocation, customer churn, and anomaly detection in financial transactions.
+
 ---
 
 ## Selected projects
