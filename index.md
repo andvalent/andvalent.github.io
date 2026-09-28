@@ -8,8 +8,7 @@
       <p><strong>Senior Data Analyst & Analytics Engineer</strong></p>
       <p>
         <a href="https://www.linkedin.com/in/andrea-valente-phd-74493b21/">LinkedIn</a> •
-        <a href="https://github.com/andvalent">GitHub</a> •
-        <a href="assets/Andrea_Valente_CV.pdf">Download CV</a>
+        <a href="https://github.com/andvalent">GitHub</a>
       </p>
     </td>
   </tr>
